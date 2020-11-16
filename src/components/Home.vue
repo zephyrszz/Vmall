@@ -628,7 +628,7 @@ export default {
     time() {
       var that = this;
       var interval = setInterval(function timestampToTime() {
-        var date = new Date("2020-11-15 00:00:00") - new Date();
+        var date = new Date("2020-11-17 00:00:00") - new Date();
         //new Date当前的时间戳，也可以换成自定义的时间戳
         if (date > 0) {
           let time = date / 1000;
