@@ -6,6 +6,7 @@ import Sort from "../components/Sort.vue"
 import Discover from "../components/Discover.vue"
 import Cart from "../components/Cart.vue"
 import Me from "../components/Me.vue"
+import Register from "../components/Register.vue"
 
 
 Vue.use(VueRouter)
@@ -22,6 +23,10 @@ const routes = [
       { path: '/cart/:id', component: Cart },
       { path: '/me/:id', component: Me }
     ]
+  },
+  {
+    path: "/register",
+    component: Register
   },
 ]
 
