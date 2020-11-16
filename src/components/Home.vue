@@ -608,7 +608,11 @@ export default {
           el: ".swiper-pagination",
         },
         loop: true,
-        autoplay: true,
+        autoplay: {
+          autoplay:true,
+          deplay:2500,
+          disableOnInteraction:false
+        }
       },
       hou: 0,
       min: 0,
@@ -952,8 +956,7 @@ export default {
 }
 
 .home-head-search-left img {
-  width: 90%;
-  height: 30%;
+  width: 3.05rem;
 }
 
 .home-head-search-mid {
@@ -998,7 +1001,8 @@ export default {
 
 .home-head-search-right span {
   display: inline-block;
-  margin-left: 10%;
+  font-size: 0.65rem;
+  margin-left: .5rem;
 }
 
 .home-mid {
@@ -1019,6 +1023,7 @@ export default {
 .home-head-select-left {
   width: 100%;
   height: 90%;
+  font-size: 0.7rem;
   text-align: center;
   overflow: auto;
   display: flex;

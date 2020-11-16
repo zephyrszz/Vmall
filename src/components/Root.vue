@@ -5,65 +5,74 @@
         </div>
         <div class="foot">
             <div class="router-btn">
-                <div class="footdiv">
-                    <img
-                        v-if="this.$route.params.id == '01'"
-                        src="../assets/Homeimg/icon1a.png"
-                        alt=""
-                        class="routeimg"
-                    />
-                    <img v-else src="../assets/Homeimg/icon1.png" alt="" />
-                </div>
-                <router-link to="/home/01">首页</router-link>
+                <router-link to="/home/01">
+                    <div class="footdiv">
+                        <img
+                            v-if="this.$route.params.id == '01'"
+                            src="../assets/Homeimg/icon1a.png"
+                            alt=""
+                            class="routeimg"
+                        />
+                        <img v-else src="../assets/Homeimg/icon1.png" alt="" />
+                    </div>
+                    首页
+                </router-link>
             </div>
             <div class="router-btn">
-                <div class="footdiv">
-                    <img
-                        v-if="this.$route.params.id == '02'"
-                        src="../assets/Homeimg/icon2a.png"
-                        alt=""
-                    />
-                    <img v-else src="../assets/Homeimg/icon2.png" alt="" />
-                </div>
-                <router-link to="/sort/02">分类</router-link>
+                <router-link to="/sort/02">
+                    <div class="footdiv">
+                        <img
+                            v-if="this.$route.params.id == '02'"
+                            src="../assets/Homeimg/icon2a.png"
+                            alt=""
+                        />
+                        <img v-else src="../assets/Homeimg/icon2.png" alt="" />
+                    </div>
+                分类
+               </router-link>
             </div>
             <div class="router-btn">
-                <div class="footdiv">
-                    <img
-                        v-if="this.$route.params.id == '03'"
-                        src="../assets/Homeimg/icon3a.png"
-                        alt=""
-                    />
-                    <img v-else src="../assets/Homeimg/icon3.png" alt="" />
-                </div>
-                <router-link to="/discover/03">发现</router-link>
+                <router-link to="/discover/03">
+                    <div class="footdiv">
+                        <img
+                            v-if="this.$route.params.id == '03'"
+                            src="../assets/Homeimg/icon3a.png"
+                            alt=""
+                        />
+                        <img v-else src="../assets/Homeimg/icon3.png" alt="" />
+                    </div>
+                    发现
+                </router-link>
             </div>
             <div class="router-btn">
-                <div class="footdiv">
-                    <img
-                        v-if="this.$route.params.id == '04'"
-                        src="../assets/Homeimg/icon4a.png"
-                        alt=""
-                    />
-                    <img v-else src="../assets/Homeimg/icon4.png" alt="" />
-                </div>
                 <router-link to="/cart/04">
-                购物车
+                    <div class="footdiv">
+                        <img
+                            v-if="this.$route.params.id == '04'"
+                            src="../assets/Homeimg/icon4a.png"
+                            alt=""
+                        />
+                        <img v-else src="../assets/Homeimg/icon4.png" alt="" />
+                    </div>
+                    
+                    购物车
                 </router-link>
                 <div class="cartnum" v-if="$store.state.Totalcartnum > 0">
                     {{ $store.state.Totalcartnum }}
                 </div>
             </div>
             <div class="router-btn">
-                <div class="footdiv">
-                    <img
-                        v-if="this.$route.params.id == '05'"
-                        src="../assets/Homeimg/icon5a.png"
-                        alt=""
-                    />
-                    <img v-else src="../assets/Homeimg/icon5.png" alt="" />
-                </div>
-                <router-link to="/me/05">我</router-link>
+                 <router-link to="/me/05">
+                    <div class="footdiv">
+                        <img
+                            v-if="this.$route.params.id == '05'"
+                            src="../assets/Homeimg/icon5a.png"
+                            alt=""
+                        />
+                        <img v-else src="../assets/Homeimg/icon5.png" alt="" />
+                    </div>
+                    我
+                </router-link>
             </div>
         </div>
     </div>

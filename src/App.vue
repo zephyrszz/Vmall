@@ -28,13 +28,10 @@ body {
     background-color: #f9f9f9 !important;
     
 }
-/* #app{
-    width: 100%;
-    height: 100%;
-     min-width: 320px !important;
-    max-width: 720px !important;
-    margin: 0 auto;
-} */
+:root{
+    font-size: 23px;
+}
+
 
 
 </style>

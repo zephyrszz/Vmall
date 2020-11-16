@@ -1,0 +1,740 @@
+{
+    "code": 200,
+    "status": "成功",
+    "contentlist":[
+        {
+            "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg1.png",
+            "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+            "name":"手机",
+            "contentimg":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                  "title":"HUAWEI P40 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                  "title":"HUAWEI P40 Pro+"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg5.png",
+                  "title":"HUAWEI P40 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg6.png",
+                  "title":"华为畅享20 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg7.png",
+                  "title":"华为畅享20 Plus 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg8.png",
+                  "title":"荣耀30 Pro 5G"
+                }
+            ],
+            "name1":"笔记本+智慧屏",
+            "contentimg1":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg15.png",
+                  "title":"MateBook X 2020款"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg16.png",
+                  "title":"MateBook 13 锐龙版"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg17.png",
+                  "title":"MateBook 14 锐龙版"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg18.png",
+                  "title":"MateBook D 14"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg19.png",
+                  "title":"MateBook D 15"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg20.png",
+                  "title":"MateBook X Pro"
+                }
+              ]
+        },
+        {
+            "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg9.png",
+            "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+            "name":"HUAWEI P系列",
+            "contentimg":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                  "title":"HUAWEI P40 Pro+"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                  "title":"HUAWEI P40 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                  "title":"HUAWEI P40 Pro 5G"
+                }
+               
+            ],
+            "name1":"HUAWEI Mate系列",
+            "contentimg1":[
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 Pro+"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                "title":"HUAWEI P40 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 Pro 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 Pro+"
+              }
+            ]
+        },
+        {
+            "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg10.png",
+            "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+            "name":"荣耀 HONOR系列",
+            "contentimg":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                  "title":"荣耀30 Pro 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                  "title":"荣耀30S 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg5.png",
+                  "title":"HUAWEI P40 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg6.png",
+                  "title":"荣耀30 Pro+ 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg7.png",
+                  "title":"荣耀30青春版 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg8.png",
+                  "title":"荣耀20 PRO"
+                }
+            ]
+        },
+        {
+            "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg11.png",
+            "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+            "name":"笔记本电脑",
+            "contentimg":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg15.png",
+                  "title":"MateBook X"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg16.png",
+                  "title":"荣耀猎人游戏本V700"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg17.png",
+                  "title":"MateBook D 14"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg18.png",
+                  "title":"荣耀笔记本 Pro 2020"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg19.png",
+                  "title":"MateBook D 15"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg20.png",
+                  "title":"荣耀笔记本14 2020锐龙"
+                }
+            ]
+        },
+
+        
+        {
+          "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg1.png",
+          "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+          "name":"手机",
+          "contentimg":[
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                "title":"HUAWEI P40 Pro+"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg5.png",
+                "title":"HUAWEI P40 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg6.png",
+                "title":"华为畅享20 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg7.png",
+                "title":"华为畅享20 Plus 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg8.png",
+                "title":"荣耀30 Pro 5G"
+              }
+          ],
+          "name1":"笔记本+智慧屏",
+          "contentimg1":[
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg15.png",
+                "title":"MateBook X 2020款"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg16.png",
+                "title":"MateBook 13 锐龙版"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg17.png",
+                "title":"MateBook 14 锐龙版"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg18.png",
+                "title":"MateBook D 14"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg19.png",
+                "title":"MateBook D 15"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg20.png",
+                "title":"MateBook X Pro"
+              }
+            ]
+      },
+      {
+          "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg9.png",
+          "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+          "name":"HUAWEI P系列",
+          "contentimg":[
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 Pro+"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                "title":"HUAWEI P40 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 Pro 5G"
+              }
+             
+          ],
+          "name1":"HUAWEI Mate系列",
+          "contentimg1":[
+            {
+              "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+              "title":"HUAWEI P40 Pro+"
+            },
+            {
+              "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+              "title":"HUAWEI P40 5G"
+            },
+            {
+              "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+              "title":"HUAWEI P40 Pro 5G"
+            },
+            {
+              "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+              "title":"HUAWEI P40 Pro+"
+            }
+          ]
+      },
+      {
+          "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg10.png",
+          "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+          "name":"荣耀 HONOR系列",
+          "contentimg":[
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"荣耀30 Pro 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                "title":"荣耀30S 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg5.png",
+                "title":"HUAWEI P40 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg6.png",
+                "title":"荣耀30 Pro+ 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg7.png",
+                "title":"荣耀30青春版 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg8.png",
+                "title":"荣耀20 PRO"
+              }
+          ]
+      },
+      {
+          "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg11.png",
+          "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+          "name":"笔记本电脑",
+          "contentimg":[
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg15.png",
+                "title":"MateBook X"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg16.png",
+                "title":"荣耀猎人游戏本V700"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg17.png",
+                "title":"MateBook D 14"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg18.png",
+                "title":"荣耀笔记本 Pro 2020"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg19.png",
+                "title":"MateBook D 15"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg20.png",
+                "title":"荣耀笔记本14 2020锐龙"
+              }
+          ]
+      },
+        {
+          "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg1.png",
+            "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+            "name":"手机",
+            "contentimg":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                  "title":"HUAWEI P40 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                  "title":"HUAWEI P40 Pro+"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg5.png",
+                  "title":"HUAWEI P40 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg6.png",
+                  "title":"华为畅享20 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg7.png",
+                  "title":"华为畅享20 Plus 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg8.png",
+                  "title":"荣耀30 Pro 5G"
+                }
+            ],
+            "name1":"笔记本+智慧屏",
+            "contentimg1":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg15.png",
+                  "title":"MateBook X 2020款"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg16.png",
+                  "title":"MateBook 13 锐龙版"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg17.png",
+                  "title":"MateBook 14 锐龙版"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg18.png",
+                  "title":"MateBook D 14"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg19.png",
+                  "title":"MateBook D 15"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg20.png",
+                  "title":"MateBook X Pro"
+                }
+              ]
+        },
+        {
+            "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg9.png",
+            "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+            "name":"HUAWEI P系列",
+            "contentimg":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                  "title":"HUAWEI P40 Pro+"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                  "title":"HUAWEI P40 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                  "title":"HUAWEI P40 Pro 5G"
+                }
+               
+            ],
+            "name1":"HUAWEI Mate系列",
+            "contentimg1":[
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 Pro+"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                "title":"HUAWEI P40 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 Pro 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 Pro+"
+              }
+            ]
+        },
+        {
+            "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg10.png",
+            "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+            "name":"荣耀 HONOR系列",
+            "contentimg":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                  "title":"荣耀30 Pro 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                  "title":"荣耀30S 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg5.png",
+                  "title":"HUAWEI P40 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg6.png",
+                  "title":"荣耀30 Pro+ 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg7.png",
+                  "title":"荣耀30青春版 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg8.png",
+                  "title":"荣耀20 PRO"
+                }
+            ]
+        },
+        {
+            "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg11.png",
+            "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+            "name":"笔记本电脑",
+            "contentimg":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg15.png",
+                  "title":"MateBook X"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg16.png",
+                  "title":"荣耀猎人游戏本V700"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg17.png",
+                  "title":"MateBook D 14"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg18.png",
+                  "title":"荣耀笔记本 Pro 2020"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg19.png",
+                  "title":"MateBook D 15"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg20.png",
+                  "title":"荣耀笔记本14 2020锐龙"
+                }
+            ]
+      },
+      {
+        "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg1.png",
+            "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+            "name":"手机",
+            "contentimg":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                  "title":"HUAWEI P40 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                  "title":"HUAWEI P40 Pro+"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg5.png",
+                  "title":"HUAWEI P40 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg6.png",
+                  "title":"华为畅享20 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg7.png",
+                  "title":"华为畅享20 Plus 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg8.png",
+                  "title":"荣耀30 Pro 5G"
+                }
+            ],
+            "name1":"笔记本+智慧屏",
+            "contentimg1":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg15.png",
+                  "title":"MateBook X 2020款"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg16.png",
+                  "title":"MateBook 13 锐龙版"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg17.png",
+                  "title":"MateBook 14 锐龙版"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg18.png",
+                  "title":"MateBook D 14"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg19.png",
+                  "title":"MateBook D 15"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg20.png",
+                  "title":"MateBook X Pro"
+                }
+              ]
+        },
+        {
+            "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg9.png",
+            "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+            "name":"HUAWEI P系列",
+            "contentimg":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                  "title":"HUAWEI P40 Pro+"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                  "title":"HUAWEI P40 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                  "title":"HUAWEI P40 Pro 5G"
+                }
+               
+            ],
+            "name1":"HUAWEI Mate系列",
+            "contentimg1":[
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 Pro+"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                "title":"HUAWEI P40 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 Pro 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 Pro+"
+              }
+            ]
+        },
+        {
+            "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg10.png",
+            "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+            "name":"荣耀 HONOR系列",
+            "contentimg":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                  "title":"荣耀30 Pro 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                  "title":"荣耀30S 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg5.png",
+                  "title":"HUAWEI P40 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg6.png",
+                  "title":"荣耀30 Pro+ 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg7.png",
+                  "title":"荣耀30青春版 5G"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg8.png",
+                  "title":"荣耀20 PRO"
+                }
+            ]
+        },
+        {
+            "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg11.png",
+            "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+            "name":"笔记本电脑",
+            "contentimg":[
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg15.png",
+                  "title":"MateBook X"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg16.png",
+                  "title":"荣耀猎人游戏本V700"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg17.png",
+                  "title":"MateBook D 14"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg18.png",
+                  "title":"荣耀笔记本 Pro 2020"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg19.png",
+                  "title":"MateBook D 15"
+                },
+                {
+                  "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg20.png",
+                  "title":"荣耀笔记本14 2020锐龙"
+                }
+            ]
+    },
+        { "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg1.png",
+          "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+          "name":"手机",
+          "contentimg":[
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                "title":"HUAWEI P40 Pro+"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg5.png",
+                "title":"HUAWEI P40 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg6.png",
+                "title":"华为畅享20 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg7.png",
+                "title":"华为畅享20 Plus 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg8.png",
+                "title":"荣耀30 Pro 5G"
+              }
+          ],
+          "name1":"笔记本+智慧屏",
+          "contentimg1":[
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg15.png",
+                "title":"MateBook X 2020款"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg16.png",
+                "title":"MateBook 13 锐龙版"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg17.png",
+                "title":"MateBook 14 锐龙版"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg18.png",
+                "title":"MateBook D 14"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg19.png",
+                "title":"MateBook D 15"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg20.png",
+                "title":"MateBook X Pro"
+              }
+            ]
+      },
+      {
+          "headimg":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg9.png",
+          "headimg1":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg4.png",
+          "name":"HUAWEI P系列",
+          "contentimg":[
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 Pro+"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+                "title":"HUAWEI P40 5G"
+              },
+              {
+                "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+                "title":"HUAWEI P40 Pro 5G"
+              }
+             
+          ],
+          "name1":"HUAWEI Mate系列",
+          "contentimg1":[
+            {
+              "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+              "title":"HUAWEI P40 Pro+"
+            },
+            {
+              "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg3.png",
+              "title":"HUAWEI P40 5G"
+            },
+            {
+              "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+              "title":"HUAWEI P40 Pro 5G"
+            },
+            {
+              "img":"http://127.0.0.1:5500/src/assets/Sortimg/sortimg2.png",
+              "title":"HUAWEI P40 Pro+"
+            }
+          ]
+        }
+    ]
+}
