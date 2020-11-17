@@ -49,7 +49,7 @@ export default {
                 this.$store.state.youhui="0";
                 this.$store.state.daijin="0.00"
             }else{
-                alert("账号1234564密码123456")
+                alert("账号123456密码123456")
             }
             console.log(this.acout);
             console.log(this.pasd);

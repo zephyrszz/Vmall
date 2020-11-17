@@ -7,6 +7,7 @@ import Discover from "../components/Discover.vue"
 import Cart from "../components/Cart.vue"
 import Me from "../components/Me.vue"
 import Register from "../components/Register.vue"
+import Cartdetail from "../components/Cartdetail.vue"
 
 
 Vue.use(VueRouter)
@@ -28,6 +29,10 @@ const routes = [
     path: "/register",
     component: Register
   },
+  {
+    path: "/detail",
+    component: Cartdetail
+}
 ]
 
 const router = new VueRouter({
