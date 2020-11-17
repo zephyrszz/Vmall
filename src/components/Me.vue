@@ -163,10 +163,15 @@ export default {
       swiperOptions: {
         pagination: {
           el: ".swiper-pagination",
+          clickable:true
         },
       },
       loop: true,
-      autoplay: true,
+      autoplay: {
+          autoplay:true,
+          disableOnInteraction:false
+        },
+      speed:1000,
       imglist: [
         {
           imgsrc: require("../assets/Homeimg/me-bottom-icon-img1.png"),

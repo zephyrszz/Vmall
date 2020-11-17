@@ -606,13 +606,14 @@ export default {
       swiperOptions: {
         pagination: {
           el: ".swiper-pagination",
+          clickable:true
         },
         loop: true,
         autoplay: {
           autoplay:true,
-          deplay:2500,
           disableOnInteraction:false
-        }
+        },
+        speed:1000
       },
       hou: 0,
       min: 0,

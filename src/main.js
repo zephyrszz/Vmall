@@ -11,10 +11,11 @@ import NutUI from '@nutui/nutui';
 import '@nutui/nutui/dist/nutui.css';
 NutUI.install(Vue);
 
-
+import Swiper,{Navigation,Pagination,Autoplay} from 'swiper'
+Swiper.use([Navigation,Pagination,Autoplay])
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/swiper-bundle.css'
-Vue.use(VueAwesomeSwiper)
+Vue.use(VueAwesomeSwiper, /* { default options with global component } */)
 
 Vue.config.productionTip = false
 

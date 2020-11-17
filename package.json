@@ -10,7 +10,7 @@
     "@nutui/nutui": "^2.2.12",
     "core-js": "^3.6.5",
     "element-ui": "^2.14.1",
-    "swiper": "^6.3.5",
+    "swiper": "^6.2.0",
     "vue": "^2.6.11",
     "vue-awesome-swiper": "^4.1.1",
     "vue-router": "^3.2.0",
