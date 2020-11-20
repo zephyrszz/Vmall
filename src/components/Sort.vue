@@ -1,9 +1,9 @@
 <template>
     <div class="sort">
         <div class="sort-head">
-            <div class="sort-head-search">
+            <div class="sort-head-search" @click="gosearch">
                 <img src="../assets/Homeimg/sousuo.png" alt="" />
-                <span class="sort-head-search-input" @click="gosearch">
+                <span class="sort-head-search-input" >
                     <span>mate 40系列</span>
                 </span>
             </div>
@@ -161,6 +161,7 @@ export default {
     width: 100%;
     height: 100%;
     background: #fff;
+    user-select: none;
 }
 .sort-head {
     width: 100%;

@@ -1,42 +1,46 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from "../components/Home.vue"
-import Root from "../components/Root.vue"
-import Sort from "../components/Sort.vue"
-import Discover from "../components/Discover.vue"
-import Cart from "../components/Cart.vue"
-import Me from "../components/Me.vue"
-import Register from "../components/Register.vue"
-import Cartdetail from "../components/Cartdetail.vue"
+import Vue from "vue";
+import VueRouter from "vue-router";
+import Home from "../components/Home.vue";
+import Root from "../components/Root.vue";
+import Sort from "../components/Sort.vue";
+import Discover from "../components/Discover.vue";
+import Cart from "../components/Cart.vue";
+import Me from "../components/Me.vue";
+import Register from "../components/Register.vue";
+import Cartdetail from "../components/Cartdetail.vue";
+import Search from "../components/Search.vue"
 
-
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
+    path: "/",
     component: Root,
-    redirect: '/home/01',
+    redirect: "/home/01",
     children: [
-      { path: '/home/:id', component: Home },
-      { path: '/sort/:id', component: Sort},
-      { path: '/discover/:id', component: Discover },
-      { path: '/cart/:id', component: Cart },
-      { path: '/me/:id', component: Me }
-    ]
+      { path: "/home/:id", component: Home },
+      { path: "/sort/:id", component: Sort },
+      { path: "/discover/:id", component: Discover },
+      { path: "/cart/:id", component: Cart },
+      { path: "/me/:id", component: Me },
+    ],
   },
   {
     path: "/register",
-    component: Register
+    component: Register,
   },
   {
     path: "/detail",
-    component: Cartdetail
-}
-]
+    component: Cartdetail,
+  },
+  {
+    path: "/search",
+    component: Search,
+  },
+];
 
 const router = new VueRouter({
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;

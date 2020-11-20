@@ -296,6 +296,11 @@ export default {
     height: auto;
     background-color: #fff;
     padding-bottom: 1rem;
+    
+}
+.findNewsList .bg{
+    display: flex;
+    justify-content: center;
 }
 .findNewsList .bg img {
     height: 7.1rem;
@@ -307,9 +312,10 @@ export default {
     background-repeat: no-repeat;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
-    /* overflow: hidden; */
+  
     -webkit-border-radius: 0.5rem;
     border-radius: 0.5rem;
+    
 }
 .findNewsList .p-name {
     font-size: 0.7rem;

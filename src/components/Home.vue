@@ -53,37 +53,37 @@
         <swiper ref="mySwiper" :options="swiperOptions" class="swiperBox">
           <swiper-slide>
             <img
-              src="https://res.vmallres.com/pimages//pages/picImages/13359661400616695331.jpg"
+              src="https://res.vmallres.com/pimages//pages/picImages/65906970150617960956.jpg"
               alt
             />
           </swiper-slide>
           <swiper-slide>
             <img
-              src="https://res.vmallres.com/pimages//pages/picImages/19847720700612774891.jpg"
+              src="https://res.vmallres.com/pimages//pages/picImages/03012380650618321030.jpg"
               alt
             />
           </swiper-slide>
           <swiper-slide>
             <img
-              src="https://res.vmallres.com/pimages//pages/picImages/74844532400613544847.jpg"
+              src="https://res.vmallres.com/pimages//pages/picImages/13342251750615224331.jpg"
               alt
             />
           </swiper-slide>
           <swiper-slide>
             <img
-              src="https://res.vmallres.com/pimages//pages/picImages/68327861600616872386.png"
+              src="https://res.vmallres.com/pimages//pages/picImages/82174970150617947128.jpg"
               alt
             />
           </swiper-slide>
           <swiper-slide>
             <img
-              src="https://res.vmallres.com/pimages//pages/picImages/64993538600613539946.jpg"
+              src="https://res.vmallres.com/pimages//pages/picImages/60250255450615205206.png"
               alt
             />
           </swiper-slide>
           <swiper-slide>
             <img
-              src="https://res.vmallres.com/pimages//pages/picImages/95964796200619746959.jpg"
+              src="https://res.vmallres.com/pimages//pages/picImages/65906970150617960956.jpg"
               alt
             />
           </swiper-slide>
@@ -1221,7 +1221,6 @@ export default {
 .home-mid-content2 {
   width: 100%;
   height: 280px;
-  background: orangered;
   display: flex;
   flex-shrink: 0;
   flex-wrap: wrap;
@@ -1381,6 +1380,7 @@ export default {
   line-height: 50px;
   color: #4a4a4a;
   border-bottom: 1px solid #f8f8f8;
+  background: #fff;
 }
 
 .home-bottom-line {
@@ -1392,6 +1392,7 @@ export default {
 .home-bottom-information {
   width: 100%;
   height: 200px;
+  background: #fff;
 }
 
 .home-bottom-information-top {
