@@ -1,12 +1,15 @@
 <template>
-    <div class="discover">
+    <div class="discover" @scroll="showtop">
         <div>
-            <div class="header">
+            <div class="header" >
                 <h1>发现频道</h1>
+                <a href="#top" class="gohead" v-show="gotop">
+                    <img src="../assets/Homeimg/gohead.png" alt="" />
+                </a>
             </div>
-            <div class="hr-40"></div>
+            <div class="hr-40" id="top"></div>
         </div>
-        <div class="findIndex">
+        <div class="findIndex" >
             <ul class="clearfix">
                 <li>
                     <img src="../assets/Homeimg/discover-head-img.png" alt="" />
@@ -110,30 +113,29 @@
                 <span>新摄会</span>
             </header>
             <div class="photo">
-                 <div class="large">
-                     <img src="../assets/Homeimg/photo1.jpg">
-                     <p>来自 华为nova 7系列</p>
-                 </div>
-                 <div class="small">
-                      <img src="../assets/Homeimg/photo2.jpg">
-                     <p>来自 华为nova 7系列</p>
-                 </div>
-                 <div class="small">
-                      <img src="../assets/Homeimg/photo3.jpg">
-                     <p>来自 HUAWEI P40系列</p>
-                 </div>
-                 <div class="small">
-                      <img src="../assets/Homeimg/photo4.jpg">
-                     <p>来自 HUAWEI Mate30 系列</p>
-                 </div>
-                 <div class="middle">
-                      <img src="../assets/Homeimg/photo5.jpg">
-                     <p>来自 华为nova 7系列</p>
-                 </div>
-            </div>
-                <div class="more">
-                    <a> 发现更多新摄会 </a>
+                <div class="large">
+                    <img src="../assets/Homeimg/photo1.jpg" />
+                    <p>来自 华为nova 7系列</p>
                 </div>
+                <div class="small">
+                    <img src="../assets/Homeimg/photo2.jpg" />
+                    <p>来自 华为nova 7系列</p>
+                </div>
+                <div class="small">
+                    <img src="../assets/Homeimg/photo3.jpg" />
+                    <p>来自 HUAWEI P40系列</p>
+                </div>
+                <div class="small">
+                    <img src="../assets/Homeimg/photo4.jpg" />
+                    <p>来自 HUAWEI Mate30 系列</p>
+                </div>
+                <div class="middle">
+                    <img src="../assets/Homeimg/photo5.jpg" />
+                    <p>来自 华为nova 7系列</p>
+                </div>
+            </div>
+            <div class="more">
+                <a> 发现更多新摄会 </a>
             </div>
         </div>
     </div>
@@ -144,6 +146,7 @@ export default {
     data() {
         return {
             findnewsList: [],
+            gotop: false,
         };
     },
     created() {
@@ -157,6 +160,16 @@ export default {
             console.log(xhr.response);
             that.findnewsList = JSON.parse(xhr.response).findnewsList;
         };
+    },
+    methods: {
+        showtop(event) {
+            if (event.target.scrollTop > 500) {
+                this.gotop = true;
+            }
+            if (event.target.scrollTop < 500) {
+                this.gotop = false;
+            }
+        },
     },
 };
 </script>
@@ -296,9 +309,8 @@ export default {
     height: auto;
     background-color: #fff;
     padding-bottom: 1rem;
-    
 }
-.findNewsList .bg{
+.findNewsList .bg {
     display: flex;
     justify-content: center;
 }
@@ -312,10 +324,9 @@ export default {
     background-repeat: no-repeat;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
-  
+
     -webkit-border-radius: 0.5rem;
     border-radius: 0.5rem;
-    
 }
 .findNewsList .p-name {
     font-size: 0.7rem;
@@ -367,7 +378,7 @@ export default {
     -moz-box-flex: 1;
     -ms-flex: 1;
 }
- .more {
+.more {
     padding: 0.3rem 0 0.6rem 0;
     display: table;
     margin: 0 auto;
@@ -392,38 +403,38 @@ export default {
     height: 1.2rem;
     margin-left: 0.1rem;
 }
-.photo{
+.photo {
     height: 14rem;
     margin: 0 0.3rem;
     margin-bottom: 1rem;
     -webkit-border-radius: 0.5rem;
     border-radius: 0.5rem;
-    overflow: hidden; 
+    overflow: hidden;
 }
 .photo div {
     float: left;
     position: relative;
 }
-.photo .large{
+.photo .large {
     width: 62%;
     height: 9.3rem;
     margin-right: 0.1rem;
 }
-.photo .small{
+.photo .small {
     height: 4.6rem;
     margin-bottom: 0.1rem;
     width: 37%;
 }
-.photo .middle{
+.photo .middle {
     width: 62%;
     margin-left: 0.1rem;
     height: 4.6rem;
 }
-.photo img{
+.photo img {
     height: 100%;
     width: 100%;
 }
-.photo div p{
+.photo div p {
     position: absolute;
     bottom: 0.4rem;
     left: 0.5rem;
@@ -438,5 +449,24 @@ export default {
     -webkit-box-orient: vertical;
     word-break: break-all;
     line-height: normal;
+}
+.gohead {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    position: absolute;
+    right: 20px;
+    bottom: 70px;
+    position: fixed;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 52px;
+    z-index: 100;
+}
+.gohead img {
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
 }
 </style>

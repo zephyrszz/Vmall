@@ -262,7 +262,9 @@ export default {
 </script>
 
 <style scoped>
-
+.cart-content{
+    user-select: none;
+}
 .boxdel{
     width: 100%;
     height: 100%;
