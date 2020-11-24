@@ -11,12 +11,18 @@
                         <span
                             style="fontsize: 25px; color: #333"
                             @click="goback"
-                            >＜</span
-                        >
-                        <a href="#goods">商品</a>
-                        <a href="#comments">评价</a>
-                        <a href="#detaildata1">参数</a>
-                        <a href="#detaildata2">详情</a>
+                            ><img
+                                class="back"
+                                src="../assets/Homeimg/back.png"
+                                alt=""
+                        /></span>
+                        <span class="nav">
+                            <a href="#goods" :class="{active: active===0}">商品</a>
+                            <a href="#comments" :class="{active: active===1}">评价</a>
+                            <a href="#detaildata1" :class="{active: active===2}">参数</a>
+                            <a href="#detaildata2" :class="{active: active===3}">详情</a>
+                        </span>
+
                         <span
                             class="detail-hiddenbox-span"
                             @click="changerouter"
@@ -34,8 +40,10 @@
                         </div>
                         <div class="changerouter-box" @click="gome">我的</div>
                     </div>
-                    <a href="#" @click="goback" class="backbtn">＜</a>
-                    <a href="#" class="sortbox" @click="changerouter">···</a>
+                    <a @click="goback" class="backbtn"
+                        ><img src="../assets/Homeimg/back1.png" alt=""
+                    /></a>
+                    <a class="sortbox" @click="changerouter">···</a>
                     <div class="swiper-box">
                         <swiper
                             ref="mySwiper"
@@ -77,16 +85,16 @@
                         </p>
                         <p
                             style="
-                                font-size: 16px;
+                                font-size: 0.75em;
                                 font-weight: 700;
-                                lineheight: 30px;
+                                line-height: 1.3em;
                             "
                         >
                             {{ item.carttitle1 }}
                         </p>
-                        <p style="fontSize: 13px">
+                        <p style="font-size: 13px">
                             <span style="color: #ca141d">享受3期分期免息</span>
-                            <span style="color: #888888; lineheight: 20px">
+                            <span style="color: #888888; line-height: 20px">
                                 麒麟990 5G SoC芯片 5000万超感知徕卡四摄
                                 50倍数字变焦 全网通5G手机
                             </span>
@@ -119,7 +127,7 @@
                                         style="
                                             border: 1px solid #ca151e;
                                             color: #ca151e;
-                                            margin-top: 20px
+                                            margin-top: 20px;
                                         "
                                         >亮黑色</span
                                     >
@@ -140,7 +148,7 @@
                                         style="
                                             border: 1px solid #ca151e;
                                             color: #ca151e;
-                                            margin-top: 20px
+                                            margin-top: 20px;
                                         "
                                         >5G全网通 8GB+128GB</span
                                     >
@@ -183,7 +191,7 @@
                                 "
                                 >用户评价(41136)</span
                             >
-                            <span style="font-size: 14px; marginRight:10px">
+                            <span style="font-size: 14px; marginright: 10px">
                                 <span style="color: #ca141d">99%</span>好评
                             </span>
                         </div>
@@ -243,13 +251,7 @@
 </template>
 
 <script>
-
 export default {
-    /* computed:{
-      Totalcartnum(){
-          return this.$store.state.Totalcartnum;
-      },
-  }, */
     data() {
         return {
             swiperOptions: {
@@ -261,6 +263,8 @@ export default {
             },
             headshow: false,
             changeroute: false,
+            navList: ["商品", "评价", "参数", "详情"],
+            active: 0,
         };
     },
 
@@ -282,17 +286,12 @@ export default {
         goback() {
             this.$store.state.detaillist = [];
             this.$router.go(-1);
-            // console.log(this.$store.state.detailindex);
         },
         goshopping2() {
             this.$store.commit("goshopping2");
         },
         update() {
             this.$store.commit("update");
-            /* state.Totalcartnum = 0;
-        for(let i = 0;i < state.shoplist.length;i++){
-            state.Totalcartnum += state.shoplist[i].cartnum
-        } */
         },
         gocart() {
             this.$router.push("/cart/04");
@@ -312,10 +311,25 @@ export default {
         showhead(event) {
             if (event.target.scrollTop > 100) {
                 this.headshow = true;
+                this.active = 0;
             }
             if (event.target.scrollTop < 100) {
                 this.headshow = false;
+                this.active = 0;
             }
+            if (event.target.scrollTop > 750) {
+                this.headshow = true;
+                this.active = 1;
+            }
+            if (event.target.scrollTop > 950) {
+                this.headshow = true;
+                this.active = 2;
+            }
+            if (event.target.scrollTop > 1500) {
+                this.headshow = true;
+                this.active = 3;
+            }
+
             this.changeroute = false;
         },
         changerouter() {
@@ -326,7 +340,7 @@ export default {
 </script>
 
 <style scoped>
-.content{
+.content {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -340,6 +354,9 @@ export default {
     font-size: 12px;
 }
 
+.active {
+    border-bottom: 2px solid red;
+}
 .detail-content-bottom-img {
     width: 100%;
     height: 50%;
@@ -356,7 +373,7 @@ export default {
 }
 
 .detail-content-box1 {
-    height: 92%;
+    height: 100%;
     width: 100%;
     overflow: auto;
     position: relative;
@@ -379,8 +396,8 @@ export default {
 }
 
 .detail-hiddenbox a {
-    display: inline-block;
     width: 13%;
+    margin: 0 10px;
     color: #191919;
     font-size: 17px;
 }
@@ -393,19 +410,22 @@ export default {
 }
 
 .changerouter {
-    position: absolute;
-    top: 60px;
-    right: 20px;
+    /* position: absolute; */
+    top: 50px;
+    right: 10px;
     width: 120px;
     height: 235px;
     background-color: white;
     z-index: 100;
     position: fixed;
+    border-radius: 0.25rem;
+    box-shadow: 0rem 0rem 0.25rem 0rem rgba(0, 0, 0, 0.1);
 }
 
 .changerouter-box {
     height: 20%;
     width: 100%;
+    font-size: 0.7rem;
     text-align: center;
     line-height: 47px;
     border-bottom: 1px solid rgba(213, 213, 213, 0.5);
@@ -435,7 +455,7 @@ export default {
 
 .goods-detail {
     width: 100%;
-    height: 141px;
+    height: 101px;
 }
 
 .goods-detail p {
@@ -515,8 +535,10 @@ export default {
 }
 
 .goods-detail-line {
-    width: 100%;
-    height: 10px;
+    width: 90%;
+    height: 1px;
+    margin: 0 auto;
+    background: #e3e3e3;
 }
 
 .goods-detail-select {
@@ -647,14 +669,26 @@ export default {
     border-radius: 50%;
     background-color: #7f7f7f;
     left: 20px;
-    top: 20px;
+    top: 15px;
     z-index: 100;
     text-align: center;
     font-size: 25px;
     line-height: 27.5px;
     color: white;
 }
-
+.backbtn img {
+    width: 27.5px;
+    height: 27.5px;
+    position: absolute;
+    left: 8px;
+}
+.back {
+    width: 25.5px;
+    /* height: 27.5px; */
+    position: absolute;
+    left: 20px;
+    top: 13px;
+}
 .sortbox {
     position: absolute;
     display: inline-block;
@@ -663,7 +697,7 @@ export default {
     border-radius: 50%;
     background-color: #7f7f7f;
     right: 20px;
-    top: 20px;
+    top: 15px;
     z-index: 100;
     text-align: center;
     font-size: 25px;

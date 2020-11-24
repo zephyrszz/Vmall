@@ -20,7 +20,7 @@
                     </div>
                     <a href="#"><img :src="item.img" alt=""></a>
                     <div class="cart-box-list-title">
-                        <p style="color:#333;fontSize:14px;marginTop:30px">{{item.carttitle1}}</p>
+                        <p style="color:#333;fontSize:14px;marginTop:30px ">{{item.carttitle1}}</p>
                         <p style="color:#666;fontSize:12px">{{item.carttitle2}}</p>
                         <div class="fenqi">分期免息</div>
                         <div class="price">
@@ -45,15 +45,15 @@
             <div class="account" v-if="account">
                 <div class="account-left">
                     <input @change="allselect" type="checkbox" id="" checked style="marginLeft:30px" v-model="$store.state.select">
-                    <span style="marginLeft:15px;color:#999">全选</span>
+                    <span style="marginLeft:15px;color:#999;font-size:0.7rem">全选</span>
                 </div>
-                <span class="total"><span style="color:black">总计:</span>{{totalPrice}}元</span>
+                <span class="total"><span style="color:black">总计:</span style="font-weight: 700">{{totalPrice}}元</span>
                 <span class="accountall">结算({{Totalcartnum}})</span>
             </div>
             <div class="account" v-else>
                 <div class="account-left">
                     <input @change="allselect1" type="checkbox" value="$store.state.select" id="" checked style="marginLeft:30px" v-model="$store.state.select">
-                    <span style="marginLeft:15px;color:#999">全选</span>
+                    <span style="marginLeft:15px;color:#999;">全选</span>
                 </div>
                 <span class="accountall del" @click="delshow">删除</span>
             </div>
@@ -498,6 +498,7 @@ li>p{
     width: 100%;
     height: 60px;
     display: flex;
+    font-size: 0.9rem;
 }
 
 .fenqi{
@@ -525,10 +526,13 @@ li>p{
     width: 50%;
     height: 60px;
     display: flex;
+    
 }
 
 .priceComputed>span{
     margin-left: 10px;
+    font-size: 0.7rem;
+    opacity: 0.7;
 }
 
 .minus,.plus{
