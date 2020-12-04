@@ -3,13 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
-Vue.use(ElementUI);
 
-import NutUI from '@nutui/nutui';
-import '@nutui/nutui/dist/nutui.css';
-NutUI.install(Vue);
 
 import Swiper,{Navigation,Pagination,Autoplay} from 'swiper'
 Swiper.use([Navigation,Pagination,Autoplay])
